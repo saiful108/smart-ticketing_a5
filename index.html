@@ -16,7 +16,7 @@
     <!-- daisyui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
-    <title>smart ticketing</title>
+   
     <script>
         tailwind.config = {
           theme: {
@@ -40,10 +40,12 @@
 }
         }
       </style>
+
+<title>smart ticketing</title>
 </head>
 <body class="raleway px-[134px]">
     <!-- navbar -->
-    <div class="navbar bg-base-100">
+    <nav class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -69,7 +71,48 @@
         <div class="navbar-end ">
           <a class="btn px-7  text-green-500 bg-emerald-100 text-xl text-center font-bold ">Bus<i class="fa-solid fa-van-shuttle"></i></a>
         </div>
-      </div>
+      </nav>
        <!-- navbar -->
+       <!-- baner and ticket -->
+       <aside class="flex justify-center">
+        <div class="hero min-h-screen  rounded-[32px] relative z-1" style="background-image: url(https://i.ibb.co/QMYBYYZ/banner.png);">
+            <div class="hero-overlay bg-opacity-20  rounded-[32px]"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="">
+                <h1 class="mb-5 text-6xl font-extrabold leading-10">End-to-End Travel with </h1>
+                <h1 class="mb-5 text-6xl font-extrabold leading-10 text-green-400">P Paribahan </h1>
+                <p class="mb-5">Yes, you can run unit tests and view the results directly within the <br> app. The integrated testing features allow for a streamlined .</p>
+                <button class="btn bg-emerald-500 text-xl font-bold">Buy Tickets</button>
+              </div>
+            </div>
+          </div>
+          <!-- bottom 3 div -->
+          <section class="flex  gap-6   absolute  top-full ">
+            <div class=" h-[138px] p-8  border-b-2 rounded-3xl bg-white border-emerald-400  flex gap-2  items-center ">
+                <img class="size-16" src="https://i.ibb.co/FsQcnQf/people.png" alt="">
+                <div>
+                    <h1 class="font-bold text-4xl">500K+</h1>
+                    <p class="text-lg font-normal">Registered users</p>
+                </div>
+            </div>
+            <div class=" h-[138px] p-8  border-b-2 rounded-3xl bg-white border-emerald-400  flex gap-2  items-center ">
+                <img class="size-16" src="https://i.ibb.co/JyJ8nFH/ticket-cupon.png" alt="">
+                <div>
+                    <h1 class="font-bold text-4xl">1.7 lacks</h1>
+                    <p class="text-lg font-normal">Tickets sold</p>
+                </div>
+            </div>
+            <div class=" h-[138px] p-8  border-b-2 rounded-3xl bg-white border-emerald-400  flex gap-2  items-center ">
+                <img class="size-16" src="https://i.ibb.co/wg6YDyQ/stoppage.png" alt="">
+                <div>
+                    <h1 class="font-bold text-4xl">80K+</h1>
+                    <p class="text-lg font-normal">Rental partners</p>
+                </div>
+            </div>
+            
+            
+                      </section>
+       </aside>
+     
 </body>
 </html>
