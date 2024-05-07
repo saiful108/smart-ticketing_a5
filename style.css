@@ -1,0 +1,19 @@
+.btn{
+    background-color: cadetblue;
+    color: gray;
+}
+.btn1{
+    background-color: rgb(251, 253, 253);
+    color: gray;
+}
+.b1{
+    width: 200px;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:5px;
+    
+}
+
+.bghr{
+    background: rgba(255, 255, 255, 0.30);
+}
