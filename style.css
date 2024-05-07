@@ -17,3 +17,14 @@
 .bghr{
     background: rgba(255, 255, 255, 0.30);
 }
+
+.vl {
+  
+    border-right: 3px solid rgb(240, 233, 233);
+    /* height: 10px; */
+    border-style: dashed;
+    width: 2px;
+   
+   
+    
+  }
